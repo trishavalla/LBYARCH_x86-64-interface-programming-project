@@ -33,7 +33,7 @@ This project implements a kernel to transform a two-dimensional array of graysca
 
 1. **Download Zip File**
 2. **Extract File**
-3. **Adjust properties**
+3. **Run project 1 sln**
 4. **Build asm file**
 5. **Run**
 
