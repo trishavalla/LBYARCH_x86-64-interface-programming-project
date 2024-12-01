@@ -51,3 +51,7 @@ Average time: Ranges from 0.000967 to 0.002067 seconds depending on system perfo
 ---
 ## **Program Output (with correctness check)**  
 ![image](https://github.com/user-attachments/assets/1af6a92b-702d-4bc0-b0e8-fc21e01f104e)
+
+---
+## **Video Demonstration of source code, compilation, and execution of the C and x86-64 program**  
+
