@@ -38,6 +38,16 @@ This project implements a kernel to transform a two-dimensional array of graysca
 5. **Run**
 
 ---
+## **Performance Analysis**  
+From the execution times across different image sizes, we observe that the conversion time is highly efficient, especially for smaller images. For larger images (1000x1000), the conversion time is still relatively low, indicating good performance even with an increased number of pixels. Here are the average times:
 
+- 10x10 Image:
+Average time: 0.000000 seconds
+- 100x100 Image:
+Average time: 0.000000 seconds
+- 1000x1000 Image:
+Average time: Ranges from 0.000967 to 0.002067 seconds depending on system performance.
+
+---
 ## **Program Output (with correctness check)**  
 ![image](https://github.com/user-attachments/assets/1af6a92b-702d-4bc0-b0e8-fc21e01f104e)
