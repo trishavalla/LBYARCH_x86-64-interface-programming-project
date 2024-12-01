@@ -1,0 +1,2 @@
+^C:\USERS\SHAIM\DESKTOP\PROJECT 1\PROJECT 1\ASMFUNC.ASM
+C:\nasm\nasm -f win64 asmfunc.asm
