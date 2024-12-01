@@ -1,3 +1,10 @@
+;*****************************
+; x86-to-C interface programming project
+; Members:
+; SALIC, SHAIMMA 
+; VALLADOLID, TRISHA LAINE 
+;******************************
+
 section .data
     multiplier dq 255.0
 
