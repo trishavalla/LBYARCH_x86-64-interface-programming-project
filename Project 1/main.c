@@ -45,13 +45,22 @@ void freeMemory(double** source, int** cResult, int** asmResult, int h) {
 
 void readInput(double** source, int h, int w) {
     double input;
-    for (int r = 0; r < h; r++) {
-        for (int c = 0; c < w; c++) {
-            scanf("%lf", &input);
-            source[r][c] = input;
+    int valid;
+    do {
+        valid = 1; // Assume inputs are valid initially
+        for (int r = 0; r < h; r++) {
+            for (int c = 0; c < w; c++) {
+                scanf("%lf", &input);
+                if (input < 0.0 || input > 1.0) {
+                    printf("Invalid input. Please enter a value between 0.0 and 1.0.\n");
+                    valid = 0; // Mark as invalid to re-enter all values
+                }
+                source[r][c] = input;
+            }
         }
-    }
+    } while (!valid); // Repeat if any input was invalid
 }
+
 
 void printResults(int** result, int h, int w, const char* label) {
     printf("\n%s:\n", label);
