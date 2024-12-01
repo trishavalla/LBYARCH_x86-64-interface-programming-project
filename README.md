@@ -39,4 +39,5 @@ This project implements a kernel to transform a two-dimensional array of graysca
 
 ---
 
-## **How to Run**  
+## **Program Output (with correctness check)**  
+![image](https://github.com/user-attachments/assets/1af6a92b-702d-4bc0-b0e8-fc21e01f104e)
